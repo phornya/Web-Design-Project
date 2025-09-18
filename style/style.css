@@ -302,7 +302,7 @@ button:hover {
     text-align: center;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .navbar {
         flex-direction: column;
         padding: 10px 20px;
@@ -371,7 +371,7 @@ button:hover {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .navbar {
         padding: 12px 30px;
     }
