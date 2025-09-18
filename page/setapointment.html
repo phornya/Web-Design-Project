@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Apointment</title>
+    <link rel="stylesheet" href="/style/form.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Apointment</h1>
+        <h3>Apointment</h3>
+        <p><b>Book your Appointment</b></p>
+        <form action="#">
+            <div class="group_form">
+                <div class="forms">
+                    <label for="text">Deparments</label><br>
+                    <select>
+                        <option value="deparment">Select Deparments</option>
+                        <option value="deparment">Family Planning</option>
+                        <option value="deparment">Treat the elderly</option>
+                        <option value="deparment">Treating Childhood Diseases</option>
+                        <option value="deparment">General Treament</option>
+                    </select>
+                </div>
+                <div class="forms">
+                    <label for="text">Dortors</label><br>
+                    <select>
+                        <option value="doctors">Select Dortors</option>
+                        <option value="doctors">Dr, Him</option>
+                        <option value="doctors">Dr, Leap</option>
+                        <option value="doctors">Dr, Mengheang</option>
+                        <option value="doctors">Dr, Lavy</option>
+                    </select>
+                </div>
+            </div>
+            <div class="group_form">
+                <div class="form">
+                    <label for="">Full Name*</label><br>
+                    <input type="text" name="fname" placeholder="Your Name">
+                </div>
+                <div class="form">
+                    <label for="">Phone*</label><br>
+                    <input type="text" name="fname" placeholder="phone number">
+                </div>
+            </div>
+            <div class="group_form">
+                <div class="form">
+                    <label for="text">Email*</label><br>
+                    <input type="text" name="fname" placeholder="Email address">
+                </div>
+                <div class="form">
+                    <label for="">Date / Time*</label><br>
+                    <input type="datetime-local" id="date" name="date" required>
+                </div>
+            </div>
+            <label for="message">Message (discuss with doctor)</label><br>
+            <textarea id="message" name="message" rows="3" placeholder="Write a message"></textarea>
+        </form>
+        <button type="submit">
+            <a href="http://127.0.0.1:5500/page/success.html#">Make an Appointment</a>
+        </button>
+    </div>
+</body>
+
+</html>
