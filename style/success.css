@@ -78,44 +78,63 @@ p {
     border-radius: 4px;
     color: #fff;
 }
-@media screen and (max-width:992px) {
+
+@media (max-width: 768px) {
     main {
         width: 70%;
+        padding: 15px;
     }
-    .content h3, 
+
+    img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .content h3,
     .content p {
-        width: 80%;
-        font-size: 18px;
+        width: 70%;
     }
+
     h1 {
         font-size: 28px;
+    }
+
+    p,
+    .content p {
+        font-size: 16px;
     }
 }
 
 @media screen and (max-width: 600px) {
-    body{
+    body {
         padding: 10px;
     }
-    main{
+
+    main {
         width: 100%;
         padding: 15px;
     }
-    img{
+
+    img {
         width: 80px;
         height: 80px;
     }
+
     .content h3,
-    .content p{
+    .content p {
         width: 100%;
         font-size: 16px;
     }
-    h1{
+
+    h1 {
         font-size: 24px;
     }
-    p{
+
+    p {
         font-size: 16px;
     }
-    .button{
+
+    .button {
         font-size: 18px;
         margin: 15px;
     }

@@ -106,7 +106,11 @@ header {
     }
 }
 
+<<<<<<< HEAD
 @media screen and(max-width: 768px) {
+=======
+@media screen and (max-width: 768px) {
+>>>>>>> developer
     .navbar {
         padding: 15px 20px;
     }
