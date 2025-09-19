@@ -286,6 +286,7 @@ button:hover {
 }
 
 .box-image {
+    text-align: center;
     background-color: #1E90FF;
     width: 100%;
     font-size: 45px;
