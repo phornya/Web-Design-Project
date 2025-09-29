@@ -454,34 +454,8 @@ footer {
         font-size: 32px;
     }
 
-<<<<<<< HEAD
-    footer {
-        flex-direction: column;
-        gap: 20px;
-        text-align: center;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .navbar {
-        padding: 12px 30px;
-    }
-
-    .nav-links {
-        gap: 25px;
-    }
-
-    .text {
-        margin-left: 50px;
-        font-size: 24px;
-    }
-
-    .text h1 {
-        font-size: 36px;
-=======
     .flex-box p {
         font-size: 20px;
->>>>>>> developer
         width: 80%;
     }
 
