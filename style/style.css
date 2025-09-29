@@ -309,25 +309,40 @@ button:hover {
 
 @media screen and (max-width: 600px) {
     .navbar {
-        flex-direction: column;
         padding: 10px 20px;
     }
 
     .nav-links {
-        flex-direction: column;
-        gap: 15px;
-        margin-top: 10px;
+        gap: 18px;
+    }
+
+    .nav-links a {
+        font-size: 10px;
+    }
+    .appointment-btn{
+        font-size: 10px;
+    }
+    .main{
+        height: auto;
+    }
+    .headmain h1 {
+        font-size: 28px;
+    }
+
+    .headmain p {
+        font-size: 16px;
     }
 
     .text {
-        margin-left: 20px;
+        margin-left: 10%;
+        font-size: 20px;
         padding: 20px;
-        font-size: 18px;
         gap: 20px;
     }
 
     .text h1 {
-        font-size: 36px;
+        font-size: 28px;
+        width: 100%;
     }
 
     .text p {
@@ -348,13 +363,10 @@ button:hover {
         height: auto;
     }
 
-    .detail {
-        flex-direction: column;
-        padding: 20px;
-    }
-
     .images img {
         width: 100%;
+        flex-direction: column;
+        /* padding: 20px; */
         margin: 0;
         height: auto;
     }
@@ -374,13 +386,19 @@ button:hover {
     .box-image p {
         font-size: 18px;
     }
+    .detail{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .navbar {
         padding: 12px 30px;
     }
-
+    .main{
+        height: auto;
+    }
     .nav-links {
         gap: 25px;
     }
@@ -405,7 +423,7 @@ button:hover {
 
     .detail {
         flex-wrap: wrap;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .images img {
@@ -421,4 +439,5 @@ button:hover {
     .asidebar img {
         width: 100%;
     }
+
 }
