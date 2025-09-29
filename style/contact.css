@@ -359,14 +359,12 @@ h1 {
     }
 
     .group-card {
-        flex-wrap: wrap;
         gap: 30px;
         justify-content: center;
     }
 
     .card {
         width: 45%;
-        height: auto;
     }
 
     .flex-box {
