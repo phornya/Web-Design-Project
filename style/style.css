@@ -401,7 +401,7 @@ button:hover {
 
     .detail {
         flex-wrap: wrap;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .images img {
@@ -417,4 +417,5 @@ button:hover {
     .asidebar img {
         width: 100%;
     }
+
 }
