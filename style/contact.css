@@ -89,6 +89,7 @@ p {
 }
 
 .main {
+    width: 100%;
     background-color: #fff;
     background-size: cover;
     height: 90vh;
@@ -102,6 +103,7 @@ p {
     text-align: left;
     padding: 50px;
     gap: 50px;
+
 }
 
 .group-card li {
@@ -156,7 +158,7 @@ p {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 24px;
+    gap: 32px;
 }
 
 .card-1 {
@@ -266,29 +268,43 @@ h1 {
 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
     .navbar {
-        padding: 10px 30px;
+        padding: 10px 20px;
+        gap: 10px;
     }
 
     .nav-links {
-        gap: 20px;
+        flex-wrap: wrap;
+        gap: 15px;
+        font-size: 14px;
+        justify-content: center;
     }
 
     .text {
-        margin-left: 50px;
+        margin-left: 0;
+        font-size: 22px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .text h1 {
         font-size: 28px;
     }
 
+    .main {
+        height: auto;
+        min-height: 400px;
+    }
+
     .group-card {
-        flex-wrap: wrap;
-        gap: 30px;
-        padding: 30px;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
     }
 
     .card {
         width: 100%;
-        max-width: 450px;
         height: auto;
         padding: 20px;
     }
@@ -298,109 +314,82 @@ h1 {
         text-align: center;
     }
 
-    .flex-box img {
-        width: 350px;
-        height: auto;
+    .flex-box h1 {
+        font-size: 32px;
     }
 
     .flex-box p {
-        width: 90%;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .flex-box img {
+        width: 100%;
+        height: auto;
+    }
+
+    .service-card {
+        width: 100%;
+        height: auto;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 10px 20px;
+        padding: 12px 30px;
     }
 
     .nav-links {
-        flex-direction: column;
-        gap: 15px;
-        margin-top: 10px;
+        gap: 20px;
+        font-size: 16px;
     }
 
     .text {
         margin-left: 20px;
-        font-size: 22px;
+        font-size: 28px;
+    }
+
+    .text h1 {
+        font-size: 36px;
+    }
+
+    .main {
+        height: auto;
+        min-height: 500px;
     }
 
     .group-card {
-        flex-direction: column;
-        gap: 20px;
-        padding: 20px;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
     }
 
-    .card,
-    .service-card,
-    .card-1 {
-        width: 100%;
-        max-width: 100%;
+    .card {
+        width: 45%;
         height: auto;
+    }
+
+    .flex-box {
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 20px;
     }
 
     .flex-box h1 {
         font-size: 40px;
     }
 
+    .flex-box p {
+        font-size: 18px;
+        width: 80%;
+    }
+
     .flex-box img {
-        width: 250px;
+        width: 80%;
         height: auto;
     }
 
-    .flex-box p {
-        font-size: 18px;
-        width: 100%;
-    }
-
-    #box h3 {
-        font-size: 24px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .navbar {
-        padding: 10px;
-    }
-
-    .logo img {
-        width: 40px;
-    }
-
-    .nav-links a {
-        font-size: 14px;
-    }
-
-    .appointment-btn {
-        font-size: 14px;
-        padding: 6px 12px;
-        width: 100%;
-        text-align: center;
-    }
-
-    .text {
-        font-size: 18px;
-        margin-left: 10px;
-    }
-
-    .flex-box h1 {
-        font-size: 28px;
-    }
-
-    .flex-box p {
-        font-size: 16px;
-    }
-
-    .flex-box img {
-        width: 200px;
-    }
-
-    #box h3 {
-        font-size: 20px;
-    }
-
-    #box li {
-        font-size: 16px;
+    .service-card {
+        width: 45%;
     }
 }
