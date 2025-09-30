@@ -275,12 +275,13 @@ h1 {
     }
 
     .nav-links {
-        flex-wrap: wrap;
         gap: 15px;
-        font-size: 14px;
+        font-size: 10px;
         justify-content: center;
     }
-
+    .appointment-btn{
+        font-size: 10px;
+    }
     .text {
         margin-left: 0;
         font-size: 22px;
@@ -302,7 +303,9 @@ h1 {
         gap: 20px;
         padding: 20px;
     }
-
+     .group-card h1{
+        font-size: 20px;
+     }
     .card {
         width: 100%;
         height: auto;
@@ -329,7 +332,6 @@ h1 {
     }
 
     .service-card {
-        width: 100%;
         height: auto;
     }
 }
