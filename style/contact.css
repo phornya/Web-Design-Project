@@ -22,7 +22,7 @@ body {
     padding: 15px 50px;
     background: #fff;
     position: sticky;
-    top:0px;
+    top: 0px;
     z-index: 999;
 }
 
@@ -267,6 +267,11 @@ body {
     transform: translateY(-8px);
     color: #ff8c42;
 
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
 }
 
 @media screen and (max-width: 600px) {
