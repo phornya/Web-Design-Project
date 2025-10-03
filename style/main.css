@@ -15,6 +15,7 @@ html {
 }
 
 .appointment-btn:hover {
+    border: none;
     background-color: #3559a2;
     color: #fff;
 }
@@ -79,7 +80,7 @@ html {
     width: 100%;
     background-image: url(/image/image1.png);
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
 }
 
 .text {
@@ -126,18 +127,12 @@ p {
 }
 
 .btn-service {
-    color: #00b3b3;
-    background-color: transparent;
+   background-color: transparent;
 }
 
 .btn-service a {
-    text-decoration: none;
     color: #fff;
-}
-
-.btn-style:hover {
-    color: #00b3b3;
-    border: none;
+    
 }
 
 .headmain {
@@ -235,10 +230,6 @@ p {
     color: #fff;
 }
 
-.server button:hover {
-    background: #4682B4;
-}
-
 img {
     width: 100%;
     height: auto;
@@ -295,7 +286,7 @@ button a {
 
 .crad-content,
 button:hover {
-    background: #4682B4
+    background: #3559a2
 }
 
 .flex-box {
@@ -385,7 +376,7 @@ footer {
     }
     .main{
         width: 100%;
-        height: 400px;
+        height: auto;
     }
     .nav-links {
         font-size: 20px;
@@ -419,10 +410,13 @@ footer {
     .btn {
         margin-left: auto;
         gap: 20px;
+        padding:10px;
         display: flex;
         justify-content: center;
     }
-
+    .btn-style a{
+        font-size:medium;
+    }
     .content {
         flex-direction: column;
         gap: 24px;
@@ -430,7 +424,7 @@ footer {
     }
 
     .image {
-        width:100%;
+        /* width:100%; */
         height: 450px;
     }
 

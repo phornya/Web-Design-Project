@@ -397,7 +397,7 @@ button:hover {
         padding: 12px 30px;
     }
     .main{
-        height: auto;
+        height: 540px;
     }
     .nav-links {
         gap: 25px;
